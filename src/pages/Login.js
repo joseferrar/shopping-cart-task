@@ -46,7 +46,6 @@ function Login() {
         toast.error("Wrong password!");
       } else {
         localStorage.setItem("username", data.username)
-        toast.success("Login successfully!");
         navigate('/products')
       }
     },

@@ -117,7 +117,7 @@ function CartPage() {
               color={"#fff"}
               fontSize={18}
             >
-              {`$${cartTotal}`}
+              {`$ ${cartTotal}`}
             </Typography>
           </Box>
           {cartItems.length === 0 ? null : (
